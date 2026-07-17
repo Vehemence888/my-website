@@ -1,0 +1,29 @@
+/* UNIVERSAL SELECTOR=* */
+
+body {
+    color: rgb(0, 0, 255);
+    background-color: rgb(245, 245, 245);
+}
+
+/*Type Selector*/
+p {
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2em;
+    text-indent:1em;
+    font-size: 100%;
+}
+
+h1 {
+    color: rgb(94, 85, 5);
+}
+
+/*ID SELECTOR*/
+#secondlist {
+    color: rgb(165, 42, 42);
+}
+
+/* CLASS SELECTOR */
+.toppage {
+    color: rgb(128, 128, 128);
+}

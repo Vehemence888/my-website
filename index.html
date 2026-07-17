@@ -1,8 +1,8 @@
-<!-- Current Patch: 1.1.2-->
+<!-- Current Patch: 1.2.0-->
 <!--All updates to this website will use a "patch note" format.  Something commonly found in online game development. Base release is 1.0.0. Following releases will have their version number changed. I mostly do it because I like it and think its somewhat cool.-->
 <!DOCTYPE html>
 <html lang="en">
-<!-- I choose Metallica as my s6ubject for my website. They are my favorite band, and I got to see them live in 2024! A night I will never forget.-->
+<!-- I choose Metallica as my subject for my website. They are my favorite band, and I got to see them live in 2024! A night I will never forget.-->
 
 
 <head>
@@ -11,6 +11,7 @@
     <meta name="description"
         content="Welcome to my Metallica Fansite! This is the best place to find information about the best band in the world!">
     <title>Metallica Zone</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 
@@ -18,10 +19,12 @@
 
 <body>
     <header>
-        <h1> Metallica Fan Site </h1>
-        <h2> Made by <em>Ethan Prior</em> </h2>
-        <p>Welcome to my Metallica fansite! Formed in 1981, Metallica has risen to become one of the most successful
-            music groups of all time! Expect to find in depth information on their history and music on this website!
+        <h1 class="toppage">Metallica Fan Site </h1>
+        <h2 class="toppage"> Made by <em>Ethan Prior</em> </h2>
+        <h3 class="toppage">This is my first website</h3>
+        <p>Welcome to my Metallica fansite! Formed in 1981, Metallica has risen to become one of the most
+            successful music groups of all time! Expect to find in depth information on their history and music on this
+            website!
         </p>
         <img src="images/meme.jpg"
             alt="Meme featuring a penguin kicking the ground, followed by the words 'I am a Metallica fan,and I really enjoyed Load."
@@ -36,9 +39,7 @@
     <main>
         <section>
             <h1>Website Guide</h1>
-            <p>
             <h3> Click the link to find out more about you're favorite album!</h3>
-            </p>
             <ul>
                 <li>Kill Em All</li>
                 <li><a href="https://en.wikipedia.org/wiki/Ride_the_Lightning">Ride The Lightning</a></li>
@@ -61,21 +62,19 @@
             <h1>Famous Concerts</h1>
 
             <ul>
-                <li>Justice Tours ~ Seattle,Washington 1989</li>
+                <li id="secondlist">Justice Tours ~ Seattle,Washington 1989</li>
                 <li>Concert with AC/DC ~ Moscow, Russia 1991?</li>
-                <li>Cunning Stunts ~ ????,Texas 1993</li>
+                <li>Cunning Stunts ~ Fort Worth,Texas 1998</li>
                 <li>Live at the Coluseum ~ Nimes,France 2009</li>
             </ul>
 
-
-%
 
         </section>
     </main>
 
     <!-- Bottom of page-->
     <footer>
-        <p>&copy; Ethan Prior </p>
+        <p>&copy; Ethan Prior</p>
     </footer>
 </body>
 
